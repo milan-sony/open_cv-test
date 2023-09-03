@@ -15,3 +15,11 @@
 - save the image
 - waitKey()
 - destroyAllWindows()
+
+`opencv_test2.py`
+
+- capture the video
+
+`opencv_test2.py`
+
+- save the captured video
