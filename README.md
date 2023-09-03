@@ -6,7 +6,7 @@
 - load image
 - resize image
 - rotate image
-- save the new image
+- save the image
 - display the image
 - waitKey()
 - destroyAllWindows()
