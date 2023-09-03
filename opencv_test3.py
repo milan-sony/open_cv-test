@@ -7,7 +7,6 @@ cap = cv2.VideoCapture(0)
 Here we create a VideoWriter object. It contains the output file name (eg: output.avi). Then the FourCC code (FourCC is a 4-byte code used to specify the video codec). Then number of frames per second (fps) and frame size should be passed. And the last one is the isColor flag. If it is True, the encoder expect color frame, otherwise it works with grayscale frame.
 """
 
-
 # define the codec and create VideoWriter object
 # FourCC code is passed as `cv2.VideoWriter_fourcc('M','J','P','G') or cv2.VideoWriter_fourcc(*'MJPG')` for MJPG.
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
