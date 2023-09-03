@@ -14,7 +14,11 @@ mode is not necessary unless you want the image to appeare in grayscale and all
 """
 
 # you can give differnt variable names for each one
-img = cv2.imread("./assets/dog.jpg")
+img = cv2.imread("./assets/dog.jp")
+
+# if there is no image it will print the messsage
+if img is None:
+    print("Could not read the image.")
 
 # resize the image
 img = cv2.resize(img, (400,400))
