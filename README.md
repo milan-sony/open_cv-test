@@ -20,6 +20,14 @@
 
 - capture the video
 
-`opencv_test2.py`
+`opencv_test3.py`
 
 - save the captured video
+
+`opencv_test4.py`
+
+- draw line
+- draw rectabgle
+- draw circle
+- draw polygon
+- adding text to image
