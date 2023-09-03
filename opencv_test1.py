@@ -1,4 +1,3 @@
-# import open cv
 import cv2
 
 # load image
