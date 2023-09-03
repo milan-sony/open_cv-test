@@ -11,7 +11,7 @@
 - load image
 - resize image
 - rotate image
-- save the image
 - display the image
+- save the image
 - waitKey()
 - destroyAllWindows()
