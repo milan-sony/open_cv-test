@@ -1,3 +1,12 @@
 # OpenCV Test Programs
+###### Getting familiar with <a href="https://opencv.org/">#OpenCV</a>
 
-opencv_test1.py: Load image, resize image, rotate image, save the new image, display the image, waitKey(), destroyAllWindows()
+`opencv_test1.py` 
+
+- load image
+- resize image
+- rotate image
+- save the new image
+- display the image
+- waitKey()
+- destroyAllWindows()
