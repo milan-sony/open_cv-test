@@ -21,6 +21,10 @@ img = cv2.resize(img, (400,400))
 
 # rotate the image
 img = cv2.rotate(img, cv2.ROTATE_180)
+
+# save the image
+cv2.imwrite("new_img.jpg", img)
+
 # display image
 cv2.imshow("Window Name", img)
 
